@@ -43,6 +43,8 @@
   .phase-tab.active{color:var(--primary);background:var(--primary-light);border-bottom:3px solid var(--primary)}
   .phase-tab .tab-count{display:block;font-family:'Inter',sans-serif;font-size:.65rem;font-weight:500;color:var(--text-muted);margin-top:.15rem}
   .phase-tab.active .tab-count{color:var(--primary-mid)}
+  .tab-date{display:block;font-family:'Noto Sans Bengali',sans-serif;font-size:.58rem;font-weight:400;color:var(--text-muted);margin-top:.1rem;opacity:.7}
+  .phase-tab.active .tab-date{color:var(--primary-mid);opacity:.85}
 
   .search-card{background:var(--card);border-radius:0 0 var(--radius) var(--radius);box-shadow:var(--shadow-lg);padding:1.5rem;position:relative;z-index:2}
   .search-label{font-family:'Noto Sans Bengali',sans-serif;font-size:.8rem;font-weight:600;color:var(--text-muted);margin-bottom:.6rem;display:block;text-transform:uppercase;letter-spacing:.04em}
@@ -132,14 +134,17 @@
     <button class="phase-tab" onclick="switchPhase(1)" id="tab1">
       ১ম পর্যায়
       <span class="tab-count" id="count1">0 টি</span>
+      <span class="tab-date">প্রকাশ: ১৭-০৮-২০২৫</span>
     </button>
     <button class="phase-tab" onclick="switchPhase(2)" id="tab2">
       ২য় পর্যায়
       <span class="tab-count" id="count2">0 টি</span>
+      <span class="tab-date">প্রকাশ: ২৮-০৪-২০২৬</span>
     </button>
     <button class="phase-tab active" onclick="switchPhase(3)" id="tab3">
       ৩য় পর্যায়
       <span class="tab-count" id="count3">0 টি</span>
+      <span class="tab-date">প্রকাশ: ২৯-০৬-২০২৬</span>
     </button>
   </div>
 
